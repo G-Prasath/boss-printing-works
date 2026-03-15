@@ -4,7 +4,7 @@ import { ABOUT_STATS } from '../data'
 const go = (id) => document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })
 
 // Real photo for the about section
-const ABOUT_IMG = 'https://images.unsplash.com/photo-1524781289445-ddf8d5695e71?w=900&q=80&fit=crop'
+const ABOUT_IMG = 'https://images.unsplash.com/photo-1629272039203-7d76fdaf1324?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fENvbXBhbnklMjBDRU98ZW58MHx8MHx8fDA%3D'
 
 export default function About() {
   return (
