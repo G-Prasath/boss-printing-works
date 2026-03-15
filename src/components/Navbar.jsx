@@ -22,13 +22,14 @@ export default function Navbar({ active }) {
 
           {/* Logo */}
           <button onClick={() => handleNav('home')} className="flex flex-col leading-none">
-            <span className="font-display text-[23px] font-bold tracking-wide">
+            {/* <span className="font-display text-[23px] font-bold tracking-wide">
               <span style={{ color: '#e8006f' }}>BOSS</span>
               <span className={scrolled ? 'text-[#0c0c14]' : 'text-white'}>Media</span>
             </span>
             <span className={`font-cond text-[9px] tracking-[3px] uppercase ${scrolled ? 'text-gray-400' : 'text-white/40'}`}>
               Digital Printing & Arts
-            </span>
+            </span> */}
+            <img src="/logo.png" className='w-[150px]' alt="" />
           </button>
 
           {/* Desktop links */}
