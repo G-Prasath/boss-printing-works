@@ -9,7 +9,8 @@ export default function Footer() {
         <div className="grid-foot grid gap-12 pb-12 border-b border-white/[0.07]" style={{ gridTemplateColumns: '2fr 1fr 1fr 1fr' }}>
           <div>
             <div className="font-display font-bold text-[24px] mb-3">
-              <span style={{ color: '#e8006f' }}>BOSS</span><span className="text-white">Media</span>
+              {/* <span style={{ color: '#e8006f' }}>BOSS</span><span className="text-white">Media</span> */}
+              <img src="/logo.png" alt="logo" className='w-[170px] bg-white p-2' />
             </div>
             <p className="font-body text-white/35 leading-relaxed mb-6 max-w-xs" style={{ fontSize: 14 }}>
               Premium digital printing studio in Tamil Nadu delivering vibrant, high-quality prints that make every moment unforgettable.

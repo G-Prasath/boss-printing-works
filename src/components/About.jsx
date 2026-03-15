@@ -63,12 +63,12 @@ export default function About() {
                 <span className="gtext">Self Discover</span> Platform
               </h2>
 
-              <p className="font-body text-gray-500 leading-relaxed mb-4" style={{ fontSize: 16 }}>
+              <p className="font-body text-gray-500 leading-relaxed mb-4 text-justify" style={{ fontSize: 16 }}>
                 Discover a smarter way to order, crafted by artificial intelligence. From personalised
                 design suggestions to lightning-fast delivery, enjoy a printing experience designed
                 just for you.
               </p>
-              <p className="font-body text-gray-500 leading-relaxed mb-9" style={{ fontSize: 16 }}>
+              <p className="font-body text-gray-500 leading-relaxed mb-9 text-justify" style={{ fontSize: 16 }}>
                 Based in Manalmedu, Mayiladuthurai District, Tamil Nadu — serving clients across
                 India with vibrant, high-quality prints and unmatched craftsmanship you can trust.
               </p>

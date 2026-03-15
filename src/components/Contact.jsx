@@ -26,7 +26,7 @@ export default function Contact() {
             <div className="pdiv mx-auto" />
             <p className="font-cond text-[12px] tracking-[4px] uppercase text-[#e8006f] font-semibold mb-3">Get In Touch</p>
             <h2 className="font-display font-bold text-[#0c0c14] leading-[1.08] mb-3" style={{ fontSize: 'clamp(30px,4.5vw,52px)' }}>
-              Register <span className="gtext">Now</span>
+              Query <span className="gtext">Now</span>
             </h2>
             <p className="font-body text-gray-400 max-w-md mx-auto leading-relaxed" style={{ fontSize: 16 }}>
               Have a project in mind? Fill in your details and we'll get back to you within 24 hours.

@@ -21,11 +21,11 @@ export default function Services() {
               </h2>
             </div>
           </Reveal>
-          <Reveal delay={0.1}>
+          {/* <Reveal delay={0.1}>
             <button onClick={() => go('contact')} className="font-body text-[14px] font-semibold px-6 py-3 rounded-full border-2 border-gray-200 text-gray-600 hover:border-[#e8006f] hover:text-[#e8006f] transition-all duration-300">
               View All →
             </button>
-          </Reveal>
+          </Reveal> */}
         </div>
 
         <div className="grid-3s grid gap-6" style={{ gridTemplateColumns: 'repeat(3,1fr)' }}>
@@ -43,7 +43,7 @@ export default function Services() {
                 <div className="p-6">
                   <span className="font-cond text-[11px] tracking-[3px] uppercase font-bold text-[#e8006f] bg-rose-50 px-3 py-1 rounded-full">{s.tag}</span>
                   <h4 className="font-display font-bold text-[#0c0c14] mt-3 mb-2 leading-snug" style={{ fontSize: 18 }}>{s.title}</h4>
-                  <p className="font-body text-gray-400 leading-relaxed" style={{ fontSize: 14 }}>{s.desc}</p>
+                  <p className="font-body text-gray-400 leading-relaxed text-justify" style={{ fontSize: 14 }}>{s.desc}</p>
                 </div>
               </div>
             </Reveal>

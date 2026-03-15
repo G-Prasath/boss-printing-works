@@ -40,7 +40,7 @@ export default function Navbar({ active }) {
               <li key={id}>
                 <button
                   onClick={() => handleNav(id)}
-                  className={`font-cond tracking-[1.5px] text-[13px] font-semibold px-4 py-2 rounded-full transition-all duration-300 ${
+                  className={`font-cond tracking-[1.5px] text-[14px] font-semibold px-4 py-2 rounded-full transition-all duration-300 ${
                     active === id
                       ? "bg-[#e8006f] text-white shadow-[0_4px_16px_rgba(232,0,111,.4)]"
                       : scrolled
@@ -75,7 +75,7 @@ export default function Navbar({ active }) {
             {[0, 1, 2].map((i) => (
               <span
                 key={i}
-                className={`block w-6 h-0.5 transition-all duration-300 ${scrolled ? "bg-[#0c0c14]" : "bg-white"}
+                className={`block w-6 h-0.5 transition-all duration-300 ${scrolled ? "bg-[#0c0c14]" : open ? "bg-[#e8006f]" : "bg-white"}
                 ${i === 0 && open ? "rotate-45 translate-y-[7px]" : ""}
                 ${i === 1 && open ? "opacity-0" : ""}
                 ${i === 2 && open ? "-rotate-45 -translate-y-[7px]" : ""}`}

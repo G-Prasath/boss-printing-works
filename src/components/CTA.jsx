@@ -18,7 +18,7 @@ export default function CTA() {
               <h2 className="font-display font-bold text-white leading-[1.08] mb-5" style={{ fontSize: 'clamp(28px,4vw,52px)' }}>
                 Ready to Bring Your<br /><span className="gtext">Vision</span> to Life?
               </h2>
-              <p className="font-body text-white/45 leading-relaxed max-w-lg" style={{ fontSize: 16 }}>
+              <p className="font-body text-white/45 leading-relaxed max-w-lg text-justify" style={{ fontSize: 16 }}>
                 From wedding banners to political flex and custom photo frames, we deliver vibrant prints with fast turnaround and affordable pricing. Let's create something extraordinary together.
               </p>
             </div>
