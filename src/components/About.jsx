@@ -1,5 +1,6 @@
 import Reveal from './Reveal'
 import { ABOUT_STATS } from '../data'
+import { MessageCircle, PhoneCall } from 'lucide-react'
 
 const go = (id) => document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })
 
@@ -99,7 +100,7 @@ export default function About() {
                   className="btnp px-7 py-3.5 rounded-full inline-flex items-center gap-2"
                   style={{ fontSize: 15 }}
                 >
-                  📞 Call Now
+                <PhoneCall size={18} /> Call Now
                 </button>
                 <a
                   href="https://wa.me/919092551753"
@@ -108,7 +109,7 @@ export default function About() {
                   className="font-body font-semibold px-7 py-3.5 rounded-full border-2 border-gray-200 text-gray-700 hover:border-[#e8006f] hover:text-[#e8006f] transition-all duration-300 inline-flex items-center gap-2"
                   style={{ fontSize: 15 }}
                 >
-                  💬 WhatsApp Now
+                <MessageCircle size={18} /> WhatsApp Now
                 </a>
               </div>
             </div>

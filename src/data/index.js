@@ -6,7 +6,7 @@ export const SLIDES = [
     title: 'Premium Print',
     em:    'Excellence',
     sub:   'Wedding banners, political flex, photo frames — vibrant prints with lightning-fast turnaround.',
-    img:   'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1600&q=80&fit=crop',
+    img:   '/banner-1.jpg',
     ac:    '#e8006f',
   },
   {
@@ -15,7 +15,7 @@ export const SLIDES = [
     title: 'Creative',
     em:    'Design Studio',
     sub:   'From concept to creation — stunning digital artwork that captures your brand\'s true essence.',
-    img:   'https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=1600&q=80&fit=crop',
+    img:   '/banner-2.jpg',
     ac:    '#00b4d8',
   },
   {
@@ -24,7 +24,7 @@ export const SLIDES = [
     title: 'Interior',
     em:    'Flow',
     sub:   'Harmonising space and light to create immersive, unforgettable visual environments.',
-    img:   'https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600&q=80&fit=crop',
+    img:   '/banner-3.jpg',
     ac:    '#f4a261',
   },
 ]
@@ -98,11 +98,11 @@ export const GAL = [
 // ── Nav Links ─────────────────────────────────────────────────────────────────
 export const NAV_LINKS = [
   ['Home',         'home'],
-  ['About',        'about'],
+  ['About Us',        'about'],
   ['How It Works', 'how'],
   ['Services',     'services'],
   ['Gallery',      'gallery'],
-  ['Contact',      'contact'],
+  ['Contact Us',      'contact'],
 ]
 
 // ── Contact Details ───────────────────────────────────────────────────────────
