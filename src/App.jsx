@@ -1,38 +1,11 @@
-import { useActiveSection } from './hooks'
-import {
-  Navbar,
-  Hero,
-  About,
-  HowItWorks,
-  Services,
-  Gallery,
-  CTA,
-  Contact,
-  Footer,
-  ScrollToTop,
-} from './components'
-
-const SECTION_IDS = ['home', 'about', 'how', 'services', 'gallery', 'contact']
+import { Routes, Route } from 'react-router-dom'
+import { Home, Upload } from './components'
 
 export default function App() {
-  const active = useActiveSection(SECTION_IDS)
-
   return (
-    <>
-      <Navbar active={active} />
-
-      <main>
-        <Hero />
-        <About />
-        <HowItWorks />
-        <Services />
-        <Gallery />
-        <CTA />
-        <Contact />
-      </main>
-
-      <Footer />
-      <ScrollToTop />
-    </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/upload" element={<Upload />} />
+    </Routes>
   )
 }
