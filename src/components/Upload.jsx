@@ -1,9 +1,10 @@
 import { useState, useRef, useEffect } from "react";
 import { deleteImage, uploadImage } from "../services/uploadService";
+import { GAL_TABS } from "../data/index.js";
 
 import { db, collection, getDocs, doc, deleteDoc } from "../firebase/config.js";
 
-const categories = ["FLEX PRINTING", "DIGITAL ARTS", "VISION & SPACE", "OTHER"];
+const categories = GAL_TABS;
 
 export default function Upload() {
   const [file, setFile] = useState(null);
